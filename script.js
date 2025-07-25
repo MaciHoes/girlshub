@@ -1,5 +1,5 @@
 // imageFilenames array is available globally because it's loaded before this script.
-// It should contain ONLY actual image filenames (e.g., "image_0001.jpg", "my_pic.png").
+// It now contains full web URLs to images.
 
 const gallery = document.getElementById('image-gallery');
 const loadMoreBtn = document.getElementById('load-more-btn');
@@ -9,19 +9,17 @@ const endMessage = document.getElementById('end-message');
 const imagesPerLoad = 50; // Number of images to load at a time
 let currentIndex = 0;
 
-// *** IMPORTANT: UPDATE THIS BASE PATH TO MATCH YOUR EXACT FOLDER NAME ***
-// This path tells the browser where your ACTUAL IMAGE FILES are located.
-// Example: const IMAGE_BASE_PATH = `images/takeout-20250725T134329Z-1-001/Saved/`;
-// Replace 'YOUR_GOOGLE_TAKEOUT_FOLDER_NAME' with your actual folder name from Google Takeout.
-const IMAGE_BASE_PATH = `images/YOUR_GOOGLE_TAKEOUT_FOLDER_NAME/Saved/`; // <--- CHANGE THIS LINE!
+// IMAGE_BASE_PATH is no longer needed because imageFilenames now contains full web URLs.
+// You can remove or comment out the line below.
+// const IMAGE_BASE_PATH = `images/YOUR_GOOGLE_TAKEOUT_FOLDER_NAME/Saved/`; // Formerly for local paths
 
 function loadImages() {
     // Check if imageFilenames array is available and has content
     if (!imageFilenames || imageFilenames.length === 0) {
-        console.error("imageFilenames array is empty or not defined. Make sure imageFilenames.js is correct and populated with actual image filenames.");
+        console.error("imageFilenames array is empty or not defined. Make sure imageFilenames.js is correct and populated with actual image URLs.");
         loadMoreBtn.style.display = 'none';
         loadingIndicator.style.display = 'none';
-        endMessage.textContent = "Error: No image filenames found to display.";
+        endMessage.textContent = "Error: No image URLs found to display.";
         endMessage.style.display = 'block';
         return;
     }
@@ -37,15 +35,15 @@ function loadImages() {
     // Simulate a small delay for demonstration of loading indicator (remove in production if not needed)
     setTimeout(() => {
         for (let i = currentIndex; i < endIndex; i++) {
-            const filename = imageFilenames[i];
-            const fullPath = IMAGE_BASE_PATH + filename; // Constructs the full path to the image
+            const fullPath = imageFilenames[i]; // The array now holds the full URL directly
 
             const galleryItem = document.createElement('div');
             galleryItem.classList.add('gallery-item');
 
             const img = document.createElement('img');
             img.src = fullPath;
-            img.alt = filename; // Use filename as alt text for accessibility
+            // Use the last part of the URL as alt text if possible, or a generic one
+            img.alt = `Image ${i + 1}`;
             img.loading = 'lazy'; // Native lazy loading
 
             galleryItem.appendChild(img);
@@ -63,7 +61,7 @@ function loadImages() {
         // Check if all images are loaded
         if (currentIndex >= imageFilenames.length) {
             loadMoreBtn.style.display = 'none'; // Hide button
-            endMessage.textContent = "You've seen all the images!";
+            endMessage.textContent = "You've seen all the images (or tried to)!";
             endMessage.style.display = 'block'; // Show end message
         }
     }, 200); // Small delay
