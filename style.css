@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.gallery-grid {
+    display: grid;
+    /* Responsive grid: columns auto-fill, min-width 180px, max 1fr */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.gallery-item {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background-color: #fff;
+    display: flex; /* For vertical centering of image if needed */
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    min-height: 180px; /* Ensure consistent height for items */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%; /* Make image fill the item */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    display: block;
+    border-radius: 6px; /* Match container border-radius */
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.03);
+}
+
+#load-more-btn {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#load-more-btn:hover {
+    background-color: #0056b3;
+}
+
+#load-more-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#loading-indicator, #end-message {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+}
