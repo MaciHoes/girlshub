@@ -1,4 +1,4 @@
-const imagefilenames = [
+const imageFilenames = [
     "https://nlt04.videosection.com/3/8/3/38327e0353e30d78a43580c22c38e836/thumbs/480x270/1.jpeg",
     "https://media.thisvid.com/contents/videos_screenshots/9231000/9231295/preview.mp4.jpg",
     "https://nlt04.videosection.com/9/d/7/9d7d9941623f48892447bb2f9d3c0719/thumbs/480x270/1.jpeg",
