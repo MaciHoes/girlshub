@@ -3,31 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Girls Hub Gallery</title>
-    <link rel="stylesheet" href="style.css">
+    <title>GirlsHub - Your Destination</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff69b4; /* Pink */
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #ff69b4; /* Pink */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #e05c9f; /* Darker Pink */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Girls Hub</h1>
-    </header>
-
-    <main>
-        <section id="image-gallery" class="gallery-grid">
-            </section>
-
-        <div class="controls">
-            <button id="load-more-btn">Load More Images</button>
-            <div id="loading-indicator" class="loading-spinner"></div>
-            <p id="end-message" class="hidden"></p>
+    <div class="container">
+        <h1>Welcome to GirlsHub!</h1>
+        <p>Click the any button below to discover view images!.</p>
+        <div class="button-container">
+            <a href="bestgirls.html" class="cta-button">Enter Best Girls</a>
+            
         </div>
-    </main>
+        <div class="button-container">
+            <a href="maingirls.html" class="cta-button">Enter Main Girls Images</a>
 
-    <div id="image-modal" class="modal">
-        <span class="close-btn">&times;</span>
-        <img class="modal-content" id="full-image">
+        </div>
+        <div class="button-container">
+            <a href="view3.html" class="cta-button">Enter View 3 Images</a>
+
+        </div>
+        <div class="button-container">
+            <a href="girlsfeetcrush.html" class="cta-button">Enter Girls Feet Crush 2 Images</a>
+
+        </div>
     </div>
-
-    <script src="imageFilenames.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>

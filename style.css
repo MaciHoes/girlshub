@@ -144,3 +144,40 @@ main {
 body.no-scroll {
     overflow: hidden;
 }
+
+.home-button {
+    /* Basic styling */
+    background-color: #007BFF; /* A pleasant blue background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No underline for text (though not strictly needed for a button) */
+    display: inline-block; /* Allows setting margin, padding, width, height */
+    margin: 10px; /* Margin around the button */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+    
+    /* Optional: For placement in a header */
+    /* If your header has display: flex, you might not need these */
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 10px; */
+    /* z-index: 1000; */
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.home-button:active {
+    background-color: #004085; /* Even darker blue when clicked */
+    transform: translateY(1px); /* Slightly press the button down */
+}
+
+.home-button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Custom focus indicator */
+}
