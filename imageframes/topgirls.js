@@ -1,4 +1,4 @@
-const Filenames = [
+const imageFilenames = [
     "https://i.pinimg.com/73x/2f/04/d0/2f04d06f45e819ab5213da8d32c7e513.jpg",
     "https://i0.wp.com/everydayraleightay.com/wp-content/uploads/2018/09/img_7909.jpg?fit=3024%2C4032&ssl=1",
     "http://ladyinviolet.com/wp-content/uploads/2019/01/b-fall-workwear-black-button-up-blouse-faux-leather-pencil-skirt-684x1024.jpg",
