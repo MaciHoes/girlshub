@@ -6,5 +6,7 @@ const imageFilenames= [
     "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1926158590786648",
     "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4220519151350569",
     "https://www.descorbuilders.com/wp-content/uploads/2018/09/JAA-EDH-Grand-Opening-Village-Life.jpg",
-
+    "https://www.johnadamsacademy.org/wp-content/uploads/2018/08/John-Adams-Academy-Logo.png",
+    "https://media.thisvid.com/contents/videos_screenshots/3123000/3123603/preview.jpg",
+    
 ];
