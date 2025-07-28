@@ -92,6 +92,13 @@ const imageFilenames = [
     "https://kateryan.s3.amazonaws.com/ml_59b6dc2f-bce4-4a4e-95cb-2d76ac110005.jpg",
     "https://www.dealbola.com/wp-content/uploads/2016/08/1546097939-1.jpg",
     "https://websterink.com/wp-content/uploads/2013/02/American-Apparel-Tennis-Skirt-Female-Black.jpg",
-    "https://i.pinimg.com/236x/15/d7/f2/15d7f251f09e382ff042928c0904c415--school-uniform-fashion-school-uniform-girls.jpg"
-
+    "https://i.pinimg.com/236x/15/d7/f2/15d7f251f09e382ff042928c0904c415--school-uniform-fashion-school-uniform-girls.jpg",
+"images/BestGirl1.png",
+    "images/BestGirl2.jpeg",
+    "images/BestGirl3.jpeg",
+    "images/BestGirl4.jpeg",
+    "images/BestGirl5.jpeg",
+    "images/BestGirl6.jpeg",
+    "images/BestGirl7.jpg", // Note the .jpg extension here
+    "images/BestGirl8.jpeg"
 ];
