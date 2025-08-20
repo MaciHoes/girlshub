@@ -93,7 +93,7 @@ const imageFilenames = [
     "https://www.dealbola.com/wp-content/uploads/2016/08/1546097939-1.jpg",
     "https://websterink.com/wp-content/uploads/2013/02/American-Apparel-Tennis-Skirt-Female-Black.jpg",
     "https://i.pinimg.com/236x/15/d7/f2/15d7f251f09e382ff042928c0904c415--school-uniform-fashion-school-uniform-girls.jpg",
-"images/BestGirl1.png",
+    "images/BestGirl1.png",
     "images/BestGirl2.jpeg",
     "images/BestGirl3.jpeg",
     "images/BestGirl4.jpeg",
@@ -101,6 +101,6 @@ const imageFilenames = [
     "images/BestGirl6.jpeg",
     "images/BestGirl7.jpg", // Note the .jpg extension here
     "images/IMG_8116.jpeg",
-    "images/IMG_8118.jpeg"
-    "images/BestGirl8.jpeg"
+    "images/IMG_8118.jpeg",
+    "images/BestGirl8.jpeg",
 ];
