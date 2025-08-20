@@ -100,5 +100,7 @@ const imageFilenames = [
     "images/BestGirl5.jpeg",
     "images/BestGirl6.jpeg",
     "images/BestGirl7.jpg", // Note the .jpg extension here
+    "images/IMG_8116.jpeg",
+    "images/IMG_8118.jpeg"
     "images/BestGirl8.jpeg"
 ];
