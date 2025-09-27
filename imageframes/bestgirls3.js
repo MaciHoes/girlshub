@@ -22,7 +22,6 @@ const imageFilenames = [
     "images/IMG_8141.jpeg",
     "images/IMG_8142.jpeg",
     "images/IMG_8143.jpeg",
-    "",
     "https://i.styleoholic.com/2017/12/With-black-shirt-black-tights-ankle-boots-and-leather-bag.jpg",
     "https://i.pinimg.com/736x/32/f0/d1/32f0d187ff277510de06717a16eda798.jpg",
     "https://product-images-cdn.liketoknow.it/Yq.j6YvueqiQQ4RDX6g5T4VB9A3sgvUojJcfdB33bx7tQ4KdUOUXZKAEOHDSIiaHPbB1s1sHF4Ohnsppy7rN5xuKthns4eB_9mCKkkQj1Gsn8KO7nxFAig5I2PwtcxI3e42HZGBsrEnABw3C20Y.LEQWwUTuWXbAg7k.ht2KQw_0NFkeE1MoLwpZqOk-?v=0&auto=format&fm=webp&w=450&q=80&dpr=2.625",
