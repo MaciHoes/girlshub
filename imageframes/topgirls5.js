@@ -1,4 +1,4 @@
-const imageFileNames = [
+const imageFilenames = [
   "https://i.pinimg.com/originals/98/90/4d/98904d1fddf6b05384a607b84d77b63e.jpg",
     "http://baublestobubbles.com/wp-content/uploads/2013/11/brown-leather-skirt-3.jpg",
     "https://i.etsystatic.com/19429555/r/il/f88a5c/2875243204/il_fullxfull.2875243204_rcbm.jpg",
