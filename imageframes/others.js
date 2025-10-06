@@ -447,7 +447,7 @@ const imageFilenames = [
     "https://img.shopperboard.com/22800032/28419114827878-1.jpg",
     "https://www.bochique.com.au/wp-content/uploads/2021/05/SASSY-Hame_PRONSSI_m-bronze-skirt-300x450.jpg",
     "https://www.bochique.com.au/wp-content/uploads/2021/05/SASSY-Hame_MUSTA_2-black-skirt-300x400.jpeg",
-    "https://www.bochique.com.au/wp-content/uploads/2021/05/SASSY-Hame_MUSTA_m-black-skirt-600x901.jpg"
+    "https://www.bochique.com.au/wp-content/uploads/2021/05/SASSY-Hame_MUSTA_m-black-skirt-600x901.jpg",
     "https://s3.commentsold.com/ccbella/products/AsoZLO8WfCO9AX13ctRwaPsdI3Skf4k4HIds87QQ.jpg?optimize=medium&width=1200&format=jpg",
     "https://i.pinimg.com/236x/05/e6/22/05e622baa389524ce9d0a5021954908d--brown-leather-skirt-leather-skirts.jpg",
     "https://i.pinimg.com/474x/d4/50/7e/d4507e856e377f0342a71242b3ce830f.jpg",
