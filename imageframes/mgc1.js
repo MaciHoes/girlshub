@@ -37,6 +37,10 @@
     "http://fashiongum.com/wp-content/uploads/2015/01/Denim-Skirts-29.jpg",
     "https://i.pinimg.com/736x/e1/6f/96/e16f967abedf693df7f8689f4c2fd787.jpg",
     "https://i.pinimg.com/originals/43/c2/ed/43c2ed2d16f644f68ef622d51e7c7c46.jpg",
+    "https://cdn.cliqueinc.com/posts/306329/best-flat-shoe-trends-306329-1679596033791-main.700x0c.jpg",
+   "http://4.bp.blogspot.com/-VPOyL-QOq20/T5Hq_AVrS5I/AAAAAAAADqQ/XfltlhQ52gg/s1600/beautiful+romantic+girl+in+skirt+sweet+flats+ant+nylons+tights+pantyhose.jpg",
+   "https://live.staticflickr.com/5809/20814584624_2f69160358_z.jpg",
+   "https://i.pinimg.com/originals/a5/49/8b/a5498b596f8689fc8c46441f646dac43.jpg",
 
 
  ];
