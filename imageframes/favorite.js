@@ -11,6 +11,6 @@
     "images/IMG_8118.jpeg",
     "images/BestGirl8.jpeg",
     images/IMG_8202.webp,
-
+    images/IMG_8203.webp
  ];
  
