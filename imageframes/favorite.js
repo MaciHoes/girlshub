@@ -21,8 +21,8 @@
 "images/IMG_8209.jpeg",
 "images/IMG_8207.png",
 "images/IMG_8203.webp",
+"images/IMG_8225.png",
 "images/IMG_8229.png",
 "images/IMG_8228.png",
-"images/IMG_8225.png"
  ];
  
