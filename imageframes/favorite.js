@@ -34,7 +34,7 @@
   "images/IMG_8249.jpeg",
   "images/IMG_8250.webp",
   "images/IMG_8253.jpeg",
-  "images/IMG_8255.png"
+  "images/IMG_8255.png",
   "images/IMG_8257.jpeg",
   "images/IMG_8258.png",
   
