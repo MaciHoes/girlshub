@@ -37,6 +37,8 @@
   "images/IMG_8255.png",
   "images/IMG_8257.jpeg",
   "images/IMG_8258.png",
+  "images/IMG_8265.webp",
+  "images/IMG_8266.png",
   
 
   
