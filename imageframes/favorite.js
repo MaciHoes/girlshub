@@ -39,7 +39,10 @@
   "images/IMG_8258.png",
   "images/IMG_8265.webp",
   "images/IMG_8266.png",
+  "images/IMG_8270.png",
+
   
+  "images/IMG_8274.png",
 
   
  ];
