@@ -42,8 +42,5 @@
   "images/IMG_8270.png",
 
   
-  "images/IMG_8274.png",
-
-  
  ];
  
