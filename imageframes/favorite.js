@@ -41,7 +41,8 @@
   "images/IMG_8266.png",
   "images/IMG_8270.png",
   "images/Monica.png",
-
+  "images/IMG_8379.png",
+  "images/IMG_8391.png",
   
  ];
  
