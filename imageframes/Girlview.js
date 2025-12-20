@@ -35,7 +35,7 @@ const imageFilenames = [
    "images/IMG_8359.png",
    "images/IMG_8353.jpeg",
    "images/IMG_8351.png",
-
+   "images/Temp11.webp",
    
    
 ];
