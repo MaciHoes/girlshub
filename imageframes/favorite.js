@@ -43,6 +43,17 @@
   "images/Monica.png",
   "images/IMG_8379.png",
   "images/IMG_8391.png",
+  "images/IMG_8408.jpeg",
+  "images/IMG_8411.jpeg",
+ "images/IMG_8410.png",
+  "images/IMG_8407.jpeg",
+   "images/IMG_8406.jpeg",
+  "images/IMG_8401.png",
+  "images/IMG_8398.png",
+  "images/IMG_8395.jpeg",
+  
+
+
   
  ];
  
