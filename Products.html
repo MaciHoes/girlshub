@@ -43,25 +43,28 @@
             text-transform: uppercase;
         }
 
-        /* Section Styling */
+        /* Outfit Section Styling */
         .outfit-section {
             width: 100%;
             max-width: 1200px;
-            background: rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.7);
             padding: 30px;
             border-radius: 30px;
-            margin-bottom: 40px;
-            border: 1px solid #ffe4e1;
+            margin-bottom: 50px;
+            border: 2px solid #ffe4e1;
+            box-shadow: 0 10px 30px rgba(216, 27, 96, 0.05);
         }
 
         .outfit-header {
             color: #f06292;
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             font-weight: bold;
-            margin-bottom: 20px;
-            border-left: 5px solid #f06292;
-            padding-left: 15px;
+            margin-bottom: 25px;
+            text-align: center;
             text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ffb6c1;
+            padding-bottom: 10px;
         }
 
         .product-grid {
@@ -72,20 +75,25 @@
 
         .product-card {
             background: white;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(216, 27, 96, 0.05);
+            border-radius: 20px;
             overflow: hidden;
+            border: 1px solid #ffe4e1;
             display: flex;
             flex-direction: column;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
         }
 
         .image-container {
             width: 100%;
-            height: 250px;
+            height: 280px;
+            background-color: white;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: #fff;
         }
 
         .image-container img {
@@ -103,19 +111,20 @@
         }
 
         .item-label {
-            font-size: 0.65rem;
+            font-size: 0.7rem;
             color: #f06292;
-            font-weight: 800;
             text-transform: uppercase;
-            margin-bottom: 5px;
+            font-weight: 800;
+            margin-bottom: 8px;
             display: block;
         }
 
         .product-title {
-            font-size: 0.9rem;
+            font-size: 0.95rem;
+            font-weight: 600;
             color: #444;
             margin-bottom: 15px;
-            height: 2.5em;
+            height: 2.8em;
             overflow: hidden;
         }
 
@@ -123,15 +132,17 @@
             display: inline-block;
             background-color: #f06292;
             color: white;
-            padding: 10px 20px;
+            padding: 10px 25px;
             text-decoration: none;
             border-radius: 50px;
-            font-size: 0.8rem;
             font-weight: bold;
+            font-size: 0.85rem;
             transition: background 0.3s;
         }
 
-        .buy-button:hover { background-color: #d81b60; }
+        .buy-button:hover {
+            background-color: #d81b60;
+        }
     </style>
 </head>
 <body>
@@ -143,79 +154,133 @@
     <h1>Pink Boutique</h1>
 
     <div class="outfit-section">
-        <div class="outfit-header">Outfit 01: Modern Professional</div>
+        <div class="outfit-header">Outfit 01: Sleek Professional</div>
         <div class="product-grid">
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/718Wd+7q8vL._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Simlu Faux Leather Pencil Skirt</div><a href="https://www.amazon.com/Simlu-Leather-Pencil-Length-Bodycon/dp/B01N3MA5IF" class="buy-button">Shop Now</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/718Wd+7q8vL._AC_UY1000_.jpg" alt="Simlu Skirt"></div>
+                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Simlu Faux Leather Pencil Skirt</div><a href="https://www.amazon.com/Simlu-Leather-Pencil-Length-Bodycon/dp/B01N3MA5IF" class="buy-button" target="_blank">Shop Now</a></div>
             </div>
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/719n9m-I6JL._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">Top</span><div class="product-title">White Chiffon Blouse</div><a href="#" class="buy-button">Shop Top</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/719n9m-I6JL._AC_UY1000_.jpg" alt="White Blouse"></div>
+                <div class="product-info"><span class="item-label">The Shirt</span><div class="product-title">Elegant White V-Neck Blouse</div><a href="#" class="buy-button">Shop Now</a></div>
             </div>
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61u9O6OOSpL._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">Shoes</span><div class="product-title">Nude Pointed Pumps</div><a href="#" class="buy-button">Shop Shoes</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61u9O6OOSpL._AC_UY1000_.jpg" alt="Heels"></div>
+                <div class="product-info"><span class="item-label">The Shoes</span><div class="product-title">Nude Pointed Toe Pumps</div><a href="#" class="buy-button">Shop Now</a></div>
             </div>
         </div>
     </div>
 
     <div class="outfit-section">
-        <div class="outfit-header">Outfit 02: Retro Charm</div>
+        <div class="outfit-header">Outfit 02: Vintage Grace</div>
         <div class="product-grid">
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61M6rA2O8PL._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Tandisk Pleated Vintage Skirt</div><a href="https://www.amazon.com/Tandisk-Pleated-Vintage-Women-XL/dp/B07FCHZS2D" class="buy-button">Shop Now</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61M6rA2O8PL._AC_UY1000_.jpg" alt="Tandisk Skirt"></div>
+                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Tandisk Pleated Vintage Skirt</div><a href="https://www.amazon.com/Tandisk-Pleated-Vintage-Women-XL/dp/B07FCHZS2D" class="buy-button" target="_blank">Shop Now</a></div>
             </div>
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71LshN-W8sL._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">Top</span><div class="product-title">Black Slim Fit Turtleneck</div><a href="#" class="buy-button">Shop Top</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71LshN-W8sL._AC_UY1000_.jpg" alt="Black Top"></div>
+                <div class="product-info"><span class="item-label">The Shirt</span><div class="product-title">Slim Fit Mock Neck Top</div><a href="#" class="buy-button">Shop Now</a></div>
             </div>
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71X8k4NqR6L._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">Shoes</span><div class="product-title">Mary Jane Flats</div><a href="#" class="buy-button">Shop Shoes</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71X8k4NqR6L._AC_UY1000_.jpg" alt="Flats"></div>
+                <div class="product-info"><span class="item-label">The Shoes</span><div class="product-title">Classic Black Mary Jane Flats</div><a href="#" class="buy-button">Shop Now</a></div>
             </div>
         </div>
     </div>
 
     <div class="outfit-section">
-        <div class="outfit-header">Outfit 03: Chic Edge</div>
+        <div class="outfit-header">Outfit 03: Modern Edge</div>
         <div class="product-grid">
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61UvJ-7T8oL._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Allegra K Belted Skirt</div><a href="https://www.amazon.com/Allegra-Leather-Belted-Skirts-Outfits/dp/B0D9LHMJF1" class="buy-button">Shop Now</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61UvJ-7T8oL._AC_UY1000_.jpg" alt="Allegra K Skirt"></div>
+                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Allegra K Faux Leather Belted Skirt</div><a href="https://www.amazon.com/Allegra-Leather-Belted-Skirts-Outfits/dp/B0D9LHMJF1" class="buy-button" target="_blank">Shop Now</a></div>
             </div>
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61f008fFq2L._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">Top</span><div class="product-title">Lace Trim Camisole</div><a href="#" class="buy-button">Shop Top</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61f008fFq2L._AC_UY1000_.jpg" alt="Cami"></div>
+                <div class="product-info"><span class="item-label">The Shirt</span><div class="product-title">Satin Lace-Trim Camisole</div><a href="#" class="buy-button">Shop Now</a></div>
             </div>
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61u9O6OOSpL._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">Shoes</span><div class="product-title">Strappy Ankle Heels</div><a href="#" class="buy-button">Shop Shoes</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71YvU0vS70L._AC_UY1000_.jpg" alt="Sandals"></div>
+                <div class="product-info"><span class="item-label">The Shoes</span><div class="product-title">Strappy Stiletto Heels</div><a href="#" class="buy-button">Shop Now</a></div>
             </div>
         </div>
     </div>
 
     <div class="outfit-section">
-        <div class="outfit-header">Outfit 07: Elegant Evening</div>
+        <div class="outfit-header">Outfit 04: Playful Pleats</div>
         <div class="product-grid">
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61CshY7RAtL._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">The Dress</span><div class="product-title">Oxiuly Elegant Red Dress</div><a href="https://www.amazon.com/oxiuly-Dresses-Elegant-Vacation-Cocktail/dp/B0D5YF5RSR" class="buy-button">Shop Now</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71X8X8Zk1DL._AC_UY1000_.jpg" alt="Stelle Skirt"></div>
+                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Stelle Stretchy Pleated Twill Skirt</div><a href="https://www.amazon.com/Stelle-Womens-Pockets-Stretchy-Pleated/dp/B0DRN99N2Q" class="buy-button" target="_blank">Shop Now</a></div>
             </div>
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71YvU0vS70L._AC_UY1000_.jpg"></div>
-                <div class="product-info"><span class="item-label">Shoes</span><div class="product-title">Classic Black Heels</div><a href="#" class="buy-button">Shop Shoes</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/618S4v8P4uL._AC_UY1000_.jpg" alt="Polo"></div>
+                <div class="product-info"><span class="item-label">The Shirt</span><div class="product-title">Classic Fitted Polo Shirt</div><a href="#" class="buy-button">Shop Now</a></div>
+            </div>
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71MscH8xidL._AC_UY1000_.jpg" alt="Sneakers"></div>
+                <div class="product-info"><span class="item-label">The Shoes</span><div class="product-title">White Canvas Fashion Sneakers</div><a href="#" class="buy-button">Shop Now</a></div>
             </div>
         </div>
     </div>
 
     <div class="outfit-section">
-        <div class="outfit-header">Miniature Collection</div>
+        <div class="outfit-header">Outfit 05: Academic Style</div>
         <div class="product-grid">
             <div class="product-card">
-                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71T8uFf8e5L._AC_SL1500_.jpg"></div>
-                <div class="product-info"><span class="item-label">Bonus</span><div class="product-title">Juexica 30 Pcs Mini People</div><a href="https://www.amazon.com/Juexica-Mini-People-Figurines-Architectural/dp/B0FPFMZ35V" class="buy-button">Shop Now</a></div>
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61+D60n3YtL._AC_UY1000_.jpg" alt="Lands End Skirt"></div>
+                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Lands' End School Chino Skirt</div><a href="https://www.amazon.com/Lands-End-School-Uniform-Womens/dp/B07S1Y2R1W" class="buy-button" target="_blank">Shop Now</a></div>
+            </div>
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/81S6n8+2KFL._AC_UY1000_.jpg" alt="Oxford"></div>
+                <div class="product-info"><span class="item-label">The Shirt</span><div class="product-title">Long Sleeve Oxford Button-Down</div><a href="#" class="buy-button">Shop Now</a></div>
+            </div>
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61p-Lq-qP0L._AC_UY1000_.jpg" alt="Loafers"></div>
+                <div class="product-info"><span class="item-label">The Shoes</span><div class="product-title">Penny Loafers in Burgundy</div><a href="#" class="buy-button">Shop Now</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="outfit-section">
+        <div class="outfit-header">Outfit 06: Casual Denim</div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71nS0M3iTdL._AC_UY1000_.jpg" alt="Denim Skirt"></div>
+                <div class="product-info"><span class="item-label">The Skirt</span><div class="product-title">Amazon Essentials 5-Pocket Denim</div><a href="https://www.amazon.com/Amazon-Essentials-Womens-Classic-5-Pocket/dp/B09H7NXKZ4" class="buy-button" target="_blank">Shop Now</a></div>
+            </div>
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/715U9rQYyXL._AC_UY1000_.jpg" alt="Striped Tee"></div>
+                <div class="product-info"><span class="item-label">The Shirt</span><div class="product-title">Striped Crewneck Tee</div><a href="#" class="buy-button">Shop Now</a></div>
+            </div>
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61Z6mD-mI6L._AC_UY1000_.jpg" alt="Ankle Boots"></div>
+                <div class="product-info"><span class="item-label">The Shoes</span><div class="product-title">Tan Suede Ankle Boots</div><a href="#" class="buy-button">Shop Now</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="outfit-section">
+        <div class="outfit-header">Outfit 07: Red Elegance (Dress)</div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/61CshY7RAtL._AC_UY1000_.jpg" alt="Oxiuly Dress"></div>
+                <div class="product-info"><span class="item-label">The Dress</span><div class="product-title">Oxiuly Elegant Red Knee Length Dress</div><a href="https://www.amazon.com/oxiuly-Dresses-Elegant-Vacation-Cocktail/dp/B0D5YF5RSR" class="buy-button" target="_blank">Shop Now</a></div>
+            </div>
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/51rYF8M-C9L._AC_UY1000_.jpg" alt="Pumps"></div>
+                <div class="product-info"><span class="item-label">The Shoes</span><div class="product-title">Classic Black Patent Heels</div><a href="#" class="buy-button">Shop Now</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="outfit-section">
+        <div class="outfit-header">Collection Bonus</div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="image-container"><img src="https://m.media-amazon.com/images/I/71T8uFf8e5L._AC_SL1500_.jpg" alt="Mini People"></div>
+                <div class="product-info"><span class="item-label">Accessories</span><div class="product-title">Juexica 30 Pcs Mini People Figurines</div><a href="https://www.amazon.com/Juexica-Mini-People-Figurines-Architectural/dp/B0FPFMZ35V" class="buy-button" target="_blank">Shop Now</a></div>
             </div>
         </div>
     </div>
