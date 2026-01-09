@@ -60,9 +60,11 @@
 
   
   "images/IMG_8439.jpeg",
+  "images/IMG_8452.jpeg",
+  "images/IMG_8451.png",
+
+
   
-
-
   
  ];
  
