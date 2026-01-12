@@ -62,6 +62,26 @@ const imageFilenames = [
    "images/IMG_8434.png",
    "images/IMG_8440.jpeg",
    "images/IMG_8441.jpeg",
+
+   "images/IMG_8478.jpeg",
+   "images/IMG_8479.jpeg",
+   "images/IMG_8455.jpeg",
+   "images/IMG_8460.jpeg",
+   "images/IMG_8461.jpeg",
+   "images/IMG_8463.jpeg",
+   "images/IMG_8465.png",
+   "images/IMG_8483.png",
+   "images/IMG_8481.png",
+   "images/IMG_8481.png",
+   "images/IMG_8480.png",
+   "images/IMG_8499.jpeg",
+   "images/IMG_8498.jpeg",
+   "images/IMG_8497.jpeg",
+   "images/IMG_8492.png",
+   "images/IMG_8472.png",
+
+
+
    
    
    
