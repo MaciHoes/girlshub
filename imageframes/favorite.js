@@ -62,7 +62,21 @@
   "images/IMG_8439.jpeg",
   "images/IMG_8451.png",
   "images/IMG_8452.jpeg",
-
+ "images/IMG_8456.jpeg",
+  "images/IMG_8458.png",
+  "images/IMG_8473.png",
+  "images/IMG_8475.jpeg",
+  "images/IMG_8476.jpeg",
+  "images/IMG_8456.jpeg",
+  "images/IMG_8458.png",
+  "images/IMG_8471.png",
+  "images/IMG_8496.png",
+  "images/IMG_8494.png",
+  "images/IMG_8491.png",
+  "images/IMG_8490.png",
+  "images/IMG_8488.png",
+  "images/IMG_8487.png",
+  
 
   
  ];
