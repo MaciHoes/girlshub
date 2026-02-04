@@ -78,6 +78,7 @@
   "images/IMG_8487.png",
   "images/2Gs.png",
   "images/2Gs2.png",
+  "images/IMG_8538.jpeg",
   
 
   
