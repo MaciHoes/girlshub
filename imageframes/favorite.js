@@ -80,6 +80,11 @@
   "images/2Gs2.png",
   "images/IMG_8538.jpeg",
   
+  "images/IMG_8539.jpeg",
+  "images/IMG_8540.png",
+  "images/IMG_8541.png",
+  "images/IMG_8542.png",
+  
 
   
  ];
