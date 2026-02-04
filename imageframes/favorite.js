@@ -84,6 +84,22 @@
   "images/IMG_8540.png",
   "images/IMG_8541.png",
   "images/IMG_8542.png",
+
+  "images/IMG_8560.png",
+  "images/IMG_8544.png",
+  "images/IMG_8525.jpeg",
+  "images/IMG_8520.jpeg",
+  "images/IMG_8504.webp",
+  "images/IMG_8505.webp",
+  "images/IMG_8507.webp",
+  "images/IMG_8513.png",
+  "images/IMG_8514.jpeg",
+  "images/IMG_8519.jpeg",
+  "images/IMG_8526.jpeg",
+  "images/IMG_8527.png",
+  "images/IMG_8528.png",
+  "images/IMG_8536.jpeg",
+  "images/IMG_8534.png",
   
 
   
