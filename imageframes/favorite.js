@@ -100,6 +100,10 @@
   "images/IMG_8528.png",
   "images/IMG_8536.jpeg",
   "images/IMG_8534.png",
+  "images/IMG_8567.png",
+  "images/IMG_8571.png",
+  "images/IMG_8568.png",
+  "images/IMG_8574.png",
   
 
   
