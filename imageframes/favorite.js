@@ -104,7 +104,21 @@
   "images/IMG_8571.png",
   "images/IMG_8568.png",
   "images/IMG_8574.png",
-  
+
+  "images/IMG_8589.png",
+  "images/IMG_8590.jpeg",
+  "images/IMG_8591.jpeg",
+  "images/IMG_8592.jpeg",
+  "images/IMG_8593.jpeg",
+  "images/IMG_8594.webp",
+  "images/IMG_8596.jpeg",
+  "images/IMG_8597.jpeg",
+  "images/IMG_8598.jpeg",
+  "images/IMG_8609.png",
+  "images/IMG_8610.png",
+  "images/IMG_8614.png",
+  "images/IMG_8615.png",
+  "images/IMG_8616.png",
 
   
  ];
