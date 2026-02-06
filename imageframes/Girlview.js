@@ -123,7 +123,7 @@ const imageFilenames = [
    "images/IMG_8618.png",
    "images/IMG_8619.png",
    "images/image.png",
-
+   "images/image.png",
 
    
    
