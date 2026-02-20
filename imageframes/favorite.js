@@ -119,6 +119,16 @@
   "images/IMG_8614.png",
   "images/IMG_8615.png",
   "images/IMG_8616.png",
+  "images/IMG_8695.jpeg",
+  "images/IMG_8696.webp",
+  "images/IMG_8697.jpeg",
+  "images/IMG_8698.jpeg",
+  "images/IMG_8699.jpeg",
+  "images/IMG_8689.jpeg",
+  "images/IMG_8690.jpeg",
+  "images/IMG_8691.jpeg",
+  "images/IMG_8693.jpeg",
+  "images/IMG_8694.jpeg",
 
   
  ];
