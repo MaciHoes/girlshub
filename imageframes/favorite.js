@@ -171,5 +171,19 @@
   "images/IMG_8640.jpeg",
 
   "Girls/Girl.webp",
+  
+  "Girls/IMG_8766.png",
+  "Girls/IMG_8769.png",
+  "Girls/IMG_8770.jpeg",
+  "Girls/IMG_8773.jpeg",
+  "Girls/IMG_8774.jpeg",
+  "Girls/IMG_8775.png",
+  "Girls/IMG_8814.jpeg",
+  "Girls/IMG_8815.png",
+  "Girls/IMG_8817.png",
+
+
+
+  
  ];
  
