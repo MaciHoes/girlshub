@@ -169,6 +169,7 @@
   "images/IMG_8636.jpeg",
   "images/IMG_8637.webp",
   "images/IMG_8640.jpeg",
-  
+
+  "Girls/Girl.webp",
  ];
  
