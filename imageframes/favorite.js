@@ -138,7 +138,7 @@
   "images/IMG_8676.jpeg",
   "images/IMG_8677.jpeg",
   "images/IMG_8678.jpeg",
-  "images/IMG_8679.jepg",
+  "images/IMG_8679.jpeg",
   "images/IMG_8681.jpeg",
 
   
