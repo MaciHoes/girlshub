@@ -141,6 +141,34 @@
   "images/IMG_8679.jpeg",
   "images/IMG_8681.jpeg",
 
+  "images/IMG_8671.jpeg",
+  "images/IMG_8672.jpeg",
+  "images/IMG_8673.jpeg",
+  "images/IMG_8674.jpeg",
+  "images/IMG_8675.jpeg",
+  "images/IMG_8666.png",
+  "images/IMG_8667.webp",
+  "images/IMG_8668.jpeg",
+  "images/IMG_8669.jpeg",
+  "images/IMG_8670.jpeg",
+
+  "images/IMG_8657.jpeg",
+  "images/IMG_8658.jpeg",
+  "images/IMG_8664.jpeg",
+  "images/IMG_8682.jpeg",
+  "images/IMG_8683.webp",
+  "images/IMG_8644.webp",
+  "images/IMG_8651.jpeg",
+  "images/IMG_8656.webp",
+  "images/IMG_8659.jpeg",
+  "images/IMG_8660.jpeg",
+
+  "images/IMG_8578.jpeg",
+  "images/IMG_8578.jpeg",
+  "images/IMG_8580.jpeg",
+  "images/IMG_8636.jpeg",
+  "images/IMG_8637.webp",
+  "images/IMG_8640.jpeg",
   
  ];
  
