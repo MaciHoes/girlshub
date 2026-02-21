@@ -130,6 +130,17 @@
   "images/IMG_8693.jpeg",
   "images/IMG_8694.jpeg",
 
+  "images/IMG_8684.jpeg",
+  "images/IMG_8685.jpeg",
+  "images/IMG_8686.webp",
+  "images/IMG_8687.jpeg",
+  "images/IMG_8688.jpeg",
+  "images/IMG_8676.jpeg",
+  "images/IMG_8677.jpeg",
+  "images/IMG_8678.jpeg",
+  "images/IMG_8679.jepg",
+  "images/IMG_8681.jpeg",
+
   
  ];
  
