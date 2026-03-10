@@ -198,6 +198,11 @@
   "Girls/IMG_8523.webp",
   "Girls/IMG_8508.jpeg",
 
+  "Girls/IMG_8861.png",
+  "Girls/IMG_8859.png",
+  "Girls/IMG_8851.png",
+  "Girls/IMG_8852.png",
+
 
 
   
