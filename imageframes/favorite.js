@@ -203,7 +203,8 @@
   "Girls/IMG_8851.png",
   "Girls/IMG_8852.png",
   "Girls/IMG_8201.png",
-
+  "Girls/IMG_8253.webp",
+  "Girls/IMG_8252.webp",
 
 
   
