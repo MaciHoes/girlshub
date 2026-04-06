@@ -210,6 +210,12 @@
   "Girls/IMG_8851.png",
   "Girls/IMG_8852.png",
 
+  "View/IMG_8889.png",
+   "View/IMG_8890.png",
+   "View/IMG_8892.png",
+   "View/IMG_8893.png",
+   "View/IMG_8895.png",
+
 
   
  ];
