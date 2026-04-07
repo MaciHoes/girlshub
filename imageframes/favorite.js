@@ -232,6 +232,11 @@
   "Girls/IMG_8910.png",
   "Girls/IMG_8911.png",
   "Girls/IMG_8913.png",
+  "Girls/IMG_8842.jpeg",
+  "Girls/IMG_8844.jpeg",
+  "Girls/IMG_8845.jpeg",
+  "Girls/IMG_8848.png",
+  "Girls/IMG_8849.jpeg",
 
 
 
