@@ -241,6 +241,8 @@
   "Girls/IMG_8925.png",
   "Girls/IMG_8919.jpeg",
   "Girls/IMG_8920.png",
+  "Girls/IMG_8940.webp",
+  "Girls/IMG_8938.webp",
 
 
 
