@@ -70,5 +70,10 @@ const imageFilenames = [
    "View/IMG_9236.jpeg",
    "View/IMG_9237.jpeg",
    "View/IMG_9238.jpeg",
+   "View/IMG_9248.jpeg",
+   "View/IMG_9249.jpeg",
+   "View/IMG_9250.jpeg",
+   "View/IMG_9251.jpeg",
+   "View/IMG_9252.jpeg",
    
 ];
