@@ -51,6 +51,10 @@ const imageFilenames = [
     "Girls/IMG_9190.png",
     "Girls/IMG_9193.png",
     "Girls/IMG_9195.png",
+    "Girls/IMG_9263.png",
+    "Girls/IMG_9266.png",
+    "Girls/IMG_9276.png",
+    "Girls/IMG_9278.png",
     
 
 
