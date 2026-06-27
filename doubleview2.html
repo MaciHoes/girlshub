@@ -97,7 +97,7 @@
             background: inherit;
             padding: 15px;
             margin-bottom: 25px;
-            border: 2px dashed #ff69b4; /* Slightly deeper pink border */
+            border: 2px dashed #ff69b4;
             border-radius: 16px;
             text-align: center;
             z-index: 50;
@@ -112,7 +112,7 @@
             width: 100%;
             max-width: 100%;
             height: auto;
-            max-height: 70vh; /* Significantly larger preview limit on screens */
+            max-height: 70vh;
             object-fit: contain;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -192,15 +192,14 @@
                 font-size: 1.2rem;
             }
 
-            /* Adapts layout fluidly for narrow screens */
             .preview-box {
-                position: relative; /* Static positioning instead of sticky on touch viewports */
+                position: relative;
                 padding: 8px;
                 margin-bottom: 15px;
             }
 
             .preview-box img {
-                max-height: 55vh; /* Prevents overwhelming small screens vertically */
+                max-height: 55vh;
             }
 
             .close-preview {
@@ -279,9 +278,9 @@
                 }
             }
 
-            // Load arrays cleanly into separate variables 
-            girlviewImages = await loadFileArray('imageframes/Girlview.js');
-            favoriteImages = await loadFileArray('imageframes/favorite.js');
+            // Load the new target files cleanly into separate variables
+            girlviewImages = await loadFileArray('imageframes/GirlViews2.js');
+            favoriteImages = await loadFileArray('imageframes/FavoriteGirls.js');
 
             // Setup side preview boxes
             const setupSidePreview = (imgSrc, previewBoxId, previewImgId) => {
