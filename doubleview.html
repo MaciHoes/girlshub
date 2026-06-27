@@ -1,1 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double View Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
+        body, html {
+            height: 100%;
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        /* Split Screen Container */
+        .split-container {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+
+        /* Shared Panel Styles */
+        .panel {
+            flex: 1;
+            height: 100%;
+            overflow-y: auto; /* Independent scrolling on desktop */
+            padding: 20px;
+            -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS mobile */
+        }
+
+        /* Left Side Customization */
+        #left-panel {
+            background-color: #ffffff;
+            border-right: 2px solid #ffe4e1; /* Soft pink divider */
+        }
+
+        /* Right Side Customization */
+        #right-panel {
+            background-color: #fffbfb; /* Ultra-light pink tint for contrast */
+        }
+
+        h2 {
+            color: #ff69b4; /* Hot Pink Header */
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-bottom: 2px solid #ffb6c1; /* Light Pink underline */
+            padding-bottom: 10px;
+            position: sticky;
+            top: 0;
+            background: inherit;
+            z-index: 10;
+        }
+
+        /* Responsive Image Grid */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 1px solid #ffe4e1;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+            cursor: pointer;
+            background-color: #fff0f5; /* Lavender blush placeholder color */
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.02);
+            border-color: #ff69b4;
+            box-shadow: 0 6px 12px rgba(255, 105, 180, 0.15);
+        }
+
+        /* --- Mobile Responsive Layout --- */
+        @media (max-width: 768px) {
+            body, html {
+                overflow: auto; /* Allow the main page to scroll on mobile */
+            }
+
+            .split-container {
+                flex-direction: column; /* Stack left on top of right */
+                height: auto;
+            }
+
+            .panel {
+                height: auto;
+                overflow-y: visible; /* Let the browser window handle the scroll */
+                padding: 15px;
+            }
+
+            #left-panel {
+                border-right: none;
+                border-bottom: 2px solid #ffe4e1; /* Move divider to the bottom */
+            }
+
+            h2 {
+                position: relative; /* Turn off sticky headers on mobile */
+                font-size: 1.2rem;
+            }
+            
+            .image-grid {
+                grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+                gap: 8px;
+            }
+
+            .image-grid img {
+                height: 140px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="split-container">
+        <section id="left-panel" class="panel">
+            <h2>Girlview</h2>
+            <div id="girlview-grid" class="image-grid"></div>
+        </section>
+
+        <section id="right-panel" class="panel">
+            <h2>Favorites</h2>
+            <div id="favorite-grid" class="image-grid"></div>
+        </section>
+    </div>
+
+    <script src="imageframes/Girlview.js"></script>
+    <script src="imageframes/favorite.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const girlviewContainer = document.getElementById('girlview-grid');
+            const favoriteContainer = document.getElementById('favorite-grid');
+
+            // Helper function to render images into a container
+            const renderImages = (imageArray, targetContainer) => {
+                if (!imageArray || !Array.isArray(imageArray)) {
+                    targetContainer.innerHTML = '<p style="color: #bbb; font-style: italic;">No images found.</p>';
+                    return;
+                }
+
+                imageArray.forEach(src => {
+                    const img = document.createElement('img');
+                    img.src = src;
+                    img.alt = "Gallery Image";
+                    img.loading = "lazy"; // Smooth loading for mobile viewports
+                    
+                    img.onerror = () => {
+                        img.style.display = 'none'; // Auto-hides broken links
+                    };
+
+                    targetContainer.appendChild(img);
+                });
+            };
+
+            // Look for arrays defined globally in Girlview.js and favorite.js
+            // Replace 'girlviewImages' and 'favoriteImages' with your exact array names if different!
+            renderImages(window.girlviewImages, girlviewContainer);
+            renderImages(window.favoriteImages, favoriteContainer);
+        });
+    </script>
+</body>
+</html>
