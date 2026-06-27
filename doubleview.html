@@ -138,12 +138,15 @@
     <script src="imageframes/Girlview.js"></script>
     <script src="imageframes/favorite.js"></script>
 
-    <script>
+    <script type="module">
+        // Import the arrays and give them unique local names right here
+        import girlviewImages from './imageframes/Girlview.js';
+        import favoriteImages from './imageframes/favorite.js';
+
         document.addEventListener('DOMContentLoaded', () => {
             const girlviewContainer = document.getElementById('girlview-grid');
             const favoriteContainer = document.getElementById('favorite-grid');
 
-            // Helper function to render images into a container
             const renderImages = (imageArray, targetContainer) => {
                 if (!imageArray || !Array.isArray(imageArray)) {
                     targetContainer.innerHTML = '<p style="color: #bbb; font-style: italic;">No images found.</p>';
@@ -154,20 +157,19 @@
                     const img = document.createElement('img');
                     img.src = src;
                     img.alt = "Gallery Image";
-                    img.loading = "lazy"; // Smooth loading for mobile viewports
+                    img.loading = "lazy";
                     
                     img.onerror = () => {
-                        img.style.display = 'none'; // Auto-hides broken links
+                        img.style.display = 'none';
                     };
 
                     targetContainer.appendChild(img);
                 });
             };
 
-            // Look for arrays defined globally in Girlview.js and favorite.js
-            // Replace 'girlviewImages' and 'favoriteImages' with your exact array names if different!
-            renderImages(window.girlviewImages, girlviewContainer);
-            renderImages(window.favoriteImages, favoriteContainer);
+            // Pass the newly imported local variables
+            renderImages(girlviewImages, girlviewContainer);
+            renderImages(favoriteImages, favoriteContainer);
         });
     </script>
 </body>
