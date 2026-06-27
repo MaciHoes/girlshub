@@ -135,11 +135,7 @@
         </section>
     </div>
 
-    <script src="imageframes/Girlview.js"></script>
-    <script src="imageframes/favorite.js"></script>
-
     <script type="module">
-        // Import the arrays and give them unique local names right here
         import girlviewImages from './imageframes/Girlview.js';
         import favoriteImages from './imageframes/favorite.js';
 
@@ -167,7 +163,7 @@
                 });
             };
 
-            // Pass the newly imported local variables
+            // Safely pass the scoped arrays
             renderImages(girlviewImages, girlviewContainer);
             renderImages(favoriteImages, favoriteContainer);
         });
