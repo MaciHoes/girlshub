@@ -221,6 +221,9 @@ const imageFilenames = [
     "Girls/IMG_8980.webp",
     "Girls/IMG_8979.webp",
 
+    "Girls/IMG_9027.png",
+    "Girls/IMG_9031.png",
+
 
   
  ];
