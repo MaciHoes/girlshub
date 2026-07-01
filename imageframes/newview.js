@@ -41,6 +41,9 @@ const imageFilenames = [
     "NewView/IMG_9250.png",
     "NewView/IMG_9251.png",
     "NewView/IMG_9122.png",
+    "NewView/IMG_9126.png",
+    "NewView/IMG_9127.png",
+    "NewView/IMG_9128.png",
     
 
     "NewView/IMG_9140.png",
@@ -48,6 +51,7 @@ const imageFilenames = [
     "NewView/IMG_9237.png",
     "NewView/IMG_9123.png",
     "NewView/IMG_9124.png",
+    "NewView/IMG_9125.png",
     
     
 
